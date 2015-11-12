@@ -11,7 +11,7 @@ package com.vijay.java8.functionalinterfaces;
 @FunctionalInterface
 public interface Calculator {
 
-	public abstract int sqrt(String input);
+	public abstract int doSomething(String input);
 
 	/**
 	 * Default methods are still allowed in functional interface.
